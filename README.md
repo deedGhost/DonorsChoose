@@ -17,12 +17,6 @@ The project explores several machine learning models:
 - **Random Forest**: An ensemble method that averages multiple decision trees to improve accuracy.
 - **XGBoost**: A powerful gradient boosting algorithm used with hyperparameter tuning.
 
-## Results
-
-The models were evaluated using metrics like accuracy and AUC (Area Under the Curve). The best model was selected based on cross-validation performance and its ability to generalize to unseen data.
-
-- **Best Model**: XGBoost with hyperparameter tuning achieved the highest AUC score.
-
 ## Observations
 
 - **Logistic Regression**: Provided a strong baseline with decent accuracy, but struggled with complex patterns. TEST ACCURACY-85% 
@@ -30,3 +24,8 @@ The models were evaluated using metrics like accuracy and AUC (Area Under the Cu
 - **Random Forest**: Improved generalization over Decision Tree but required more computation. TEST ACCURACY-85% 
 - **XGBoost**: Outperformed other models, particularly after hyperparameter tuning, showing strong predictive power. TEST ACCURACY-85% 
 
+## Results
+
+The models were evaluated using metrics like accuracy and AUC (Area Under the Curve). The best model was selected based on cross-validation performance and its ability to generalize to unseen data.
+
+- **Best Model**: XGBoost with hyperparameter tuning achieved the highest AUC score.
